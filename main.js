@@ -11,8 +11,8 @@ VarForm.addEventListener('submit', function(e) {
     /* Recebe as tags de Input dentro da tag Form e armazena em 2 variáveis sometne o valor por causa do ".value"
     está dentro do eventlistener porque assim vai ser atualizado os valores sempre que o usuário tentar clicar para enviar
     */
-    const varNumberA = document.getElementById('NumberA').value;
-    const varNumberB = document.getElementById('NumberB').value;
+    const varNumberA = parseInt(document.getElementById('NumberA').value);
+    const varNumberB = parseInt(document.getElementById('NumberB').value);
     
 
     //Faz a comparação de se o valor A é maior ou menor que o valor B e exibe uma resposta
